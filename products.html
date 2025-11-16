@@ -1,1 +1,116 @@
-<html><body><h1>Products</h1></body></html>
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Produtos • KAYOR LTDA</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- ANIMAÇÕES SUAVES (Apple Style) -->
+    <style>
+        .fade-up {
+            opacity: 0;
+            transform: translateY(40px);
+            animation: fadeUp 1.2s ease forwards;
+        }
+        @keyframes fadeUp {
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .card {
+            transition: transform 0.4s ease, box-shadow 0.4s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-10px) scale(1.02);
+            box-shadow: 0px 0px 25px rgba(255, 215, 0, 0.25);
+        }
+
+        .product-img {
+            width: 100%;
+            border-radius: 10px;
+            margin-bottom: 15px;
+            transition: transform .5s ease;
+        }
+
+        .product-img:hover {
+            transform: scale(1.05);
+        }
+
+        .product-container {
+            max-width: 1100px;
+            margin: auto;
+        }
+
+        .product-card {
+            margin-bottom: 40px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>KAYOR LTDA</h1>
+    <nav>
+        <a href="index.html">Início</a>
+        <a href="sobre.html">Sobre</a>
+        <a href="produtos.html">Produtos</a>
+        <a href="contato.html">Contato</a>
+    </nav>
+</header>
+
+<section class="fade-up">
+    <h2>Nossos Produtos Premium</h2>
+    <p style="font-size:18px; color:#d6d6d6;">
+        Escolha um dos produtos premium da KAYOR LTDA.  
+        Todos desenvolvidos com qualidade, excelência e experiência visual única.
+    </p>
+</section>
+
+<section class="product-container">
+
+    <!-- PRODUTO 1 -->
+    <div class="card product-card fade-up">
+        <img src="https://i.ibb.co/ByC2cNW/book-cover-example.png" class="product-img">
+        <h3 style="color:#8ab4ff; margin-top:0;">E-book Premium - Quebra Mental</h3>
+        <p style="font-size:17px; color:#e2e2e2; line-height:1.6;">
+            Um conteúdo profundo, exclusivo e poderoso para desbloquear habilidades,
+            foco e visão de crescimento. Produzido pela KAYOR LTDA com excelência absoluta.
+        </p>
+        <a class="btn" href="#">Comprar / Baixar</a>
+    </div>
+
+    <!-- PRODUTO 2 -->
+    <div class="card product-card fade-up" style="animation-delay: 0.3s;">
+        <img src="https://i.ibb.co/jgLZ4vM/product-template.png" class="product-img">
+        <h3 style="color:#8ab4ff; margin-top:0;">Pack Kayor - Templates Exclusivos</h3>
+        <p style="font-size:17px; color:#e2e2e2; line-height:1.6;">
+            Coleção premium de artes, visuais e modelos para uso pessoal e profissional.
+            Inclui arquivos prontos para redes sociais, banners e capas.
+        </p>
+        <a class="btn" href="#">Comprar / Baixar</a>
+    </div>
+
+    <!-- PRODUTO 3 -->
+    <div class="card product-card fade-up" style="animation-delay: 0.6s;">
+        <img src="https://i.ibb.co/dPQGvBX/digital-product-2.png" class="product-img">
+        <h3 style="color:#8ab4ff; margin-top:0;">Curso Rápido - Domínio Visual</h3>
+        <p style="font-size:17px; color:#e2e2e2; line-height:1.6;">
+            Um mini-curso direto e prático que ensina fundamentos para dominar estética premium,
+            marca pessoal e identidade visual de alto impacto.
+        </p>
+        <a class="btn" href="#">Comprar / Baixar</a>
+    </div>
+
+</section>
+
+<footer>
+    <span>© 2025 KAYOR LTDA</span> — Todos os direitos reservados.
+</footer>
+
+</body>
+</html>
