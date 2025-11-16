@@ -1,1 +1,108 @@
-body { font-family: Arial; }
+/* -------------------------
+   KAYOR LTDA – STYLE PREMIUM
+   Preto + Dourado + Azul + Cinza
+--------------------------*/
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: #0b0b0d; /* Preto premium */
+    color: #e6e6e6; 
+}
+
+/* Cabeçalho */
+header {
+    background: linear-gradient(90deg, #0b0b0d, #11141a 40%, #0b0b0d);
+    padding: 25px 40px;
+    border-bottom: 1px solid rgba(255, 215, 0, 0.15); /* dourado suave */
+    text-align: center;
+}
+
+header h1 {
+    color: #d4af37; /* dourado */
+    font-size: 42px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+/* Menu */
+nav {
+    margin-top: 15px;
+}
+
+nav a {
+    color: #8ab4ff; /* azul nobre */
+    text-decoration: none;
+    margin: 0 18px;
+    font-size: 18px;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #d4af37; /* dourado no hover */
+}
+
+/* Seção principal */
+section {
+    padding: 50px 20px;
+    max-width: 1100px;
+    margin: auto;
+}
+
+/* Títulos */
+h2 {
+    color: #d4af37;
+    font-size: 30px;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+
+/* Botões */
+button, .btn {
+    background: linear-gradient(90deg, #1a1a1d, #2a2a31);
+    border: 1px solid #d4af37;
+    color: #d4af37;
+    padding: 12px 28px;
+    border-radius: 6px;
+    font-size: 17px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover, .btn:hover {
+    background: #d4af37;
+    color: #0b0b0d;
+    border-color: #d4af37;
+}
+
+/* Cards */
+.card {
+    background: #111214;
+    border: 1px solid rgba(255, 215, 0, 0.25);
+    padding: 25px;
+    border-radius: 10px;
+    margin: 20px 0;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    border-color: #d4af37;
+}
+
+/* Rodapé */
+footer {
+    text-align: center;
+    padding: 25px;
+    background: #0a0a0b;
+    border-top: 1px solid rgba(255, 215, 0, 0.15);
+    color: #9ca0a8;
+    margin-top: 40px;
+}
+
+footer span {
+    color: #d4af37;
+}
